@@ -1,0 +1,29 @@
+<!--pages/enter/enter.wxml-->
+<view class="enters">
+    <view class="user">
+        <image class="user_img"  src='/images/user_img.png' ></image>
+        <text  class="user_name">猥琐的小叶子</text>
+    </view>
+    <view class="contains">
+        <image src="/images/papers.png" class="contains_img"></image>
+        <text class="contents_Oword">证件加水印</text>
+        <text class="contents_Tword">保证证件内容不被冒用</text>
+    </view>
+    <view class="actions">
+        <button open-type="share" class="bg">
+           <image src="/images/share.png" class="share"></image>
+        </button>
+        <button class="bg" bindtap="tapName" >
+             <image src="/images/photo.png" class="photo"></image>
+        </button> 
+        <button open-type="contact" class="bg">
+           <image src="/images/message.png" class="message"></image>
+        </button> 
+    </view>
+    <view class="choice">
+       <text>拍照/选图</text>
+    </view>
+    <view class="remark">
+        加水印操作在本地完成，不会上传任何数据，请放心使用。
+    </view>
+</view>
